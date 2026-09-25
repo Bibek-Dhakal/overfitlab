@@ -1,7 +1,8 @@
 import torch
+from torch.utils.data import DataLoader, TensorDataset
+
 from overfitlab.model import BaselineMLP, RegularizedMLP
 from overfitlab.train import train_model
-from torch.utils.data import DataLoader, TensorDataset
 
 
 def test_model_forward():
