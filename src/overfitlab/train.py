@@ -51,7 +51,7 @@ def train_model(
 
         if (epoch + 1) % 100 == 0:
             print(
-                f"Epoch [{epoch+1}/{epochs}] | Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f}"
+                f"Epoch [{epoch + 1}/{epochs}] | Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f}"
             )
 
     return history
